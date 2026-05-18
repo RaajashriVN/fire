@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Raw Fire | IA-VOL4-AGNI-001&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Urbanist:wght@300;400;600&amp;display=swap" rel="stylesheet"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;style&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>:root {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>--bg-color: #0c0e12;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>--gold: #d4af37;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>--gold-gradient: linear-gradient(135deg, #a67c00 0%, #d4af37 50%, #f7e681 100%);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>--glass: rgba(255, 255, 255, 0.02);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>--border: rgba(212, 175, 55, 0.2);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>body { background-color: var(--bg-color); color: #e0e0e0; font-family: 'Urbanist', sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; overflow-x: hidden; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.container { max-width: 500px; width: 100%; padding: 25px; box-sizing: border-box; }</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--gold); text-transform: uppercase; letter-spacing: 2px; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.header { text-align: center; padding: 40px 0; border-bottom: 1px solid var(--border); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.header h1 { font-size: 1.6rem; margin: 0; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* STATUS BOX */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.status-box { background: var(--glass); border: 1px solid var(--border); padding: 20px; border-radius: 4px; margin: 25px 0; font-size: 0.8rem; letter-spacing: 1px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.status-row { display: flex; justify-content: space-between; margin-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 4px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.label { color: var(--gold); font-weight: 600; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* ARTWORK DISPLAY */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.artwork-hero { width: 100%; border: 1px solid var(--border); margin-bottom: 15px; border-radius: 2px; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* SECTION TITLES */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.section-title { font-size: 1.1rem; margin-top: 40px; border-left: 2px solid var(--gold); padding-left: 15px; margin-bottom: 20px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.statement-text { font-style: italic; line-height: 1.8; color: #bbb; font-size: 0.95rem; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* VIDEO SECTION */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.video-container { width: 100%; aspect-ratio: 16/9; background: #000; border: 1px solid var(--border); margin: 15px 0; position: relative; overflow: hidden; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.video-desc { font-size: 0.85rem; color: #888; line-height: 1.5; margin-bottom: 30px; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* MINERAL GRID */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.mineral-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.mineral-card { background: var(--glass); border: 1px solid var(--border); padding: 10px; text-align: center; cursor: pointer; transition: 0.3s; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.mineral-card img { width: 100%; height: 120px; object-fit: cover; border-radius: 2px; margin-bottom: 10px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.mineral-name { font-size: 0.7rem; color: var(--gold); font-weight: bold; text-transform: uppercase; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* LIGHT BODY MECHANISM */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.mechanism-box { background: rgba(212, 175, 55, 0.03); border: 1px solid var(--border); padding: 25px; margin-top: 40px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.mechanism-box h2 { font-size: 1.2rem; margin: 0; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.mechanism-box h3 { font-size: 0.8rem; color: #fff; margin-top: 5px; opacity: 0.6; letter-spacing: 1px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.mechanism-text { font-size: 0.9rem; color: #aaa; margin-top: 15px; line-height: 1.6; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* ATT POINTS */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.att-circle { text-align: center; margin: 50px 0; padding: 20px; border: 1px dashed var(--border); border-radius: 50%; width: 150px; height: 150px; display: flex; flex-direction: column; justify-content: center; align-self: center; margin-left: auto; margin-right: auto; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.att-number { font-size: 2.2rem; font-family: 'Playfair Display'; color: var(--gold); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.att-label { font-size: 0.6rem; letter-spacing: 2px; color: #666; margin-top: 5px; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* BUTTONS */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.btn-gold { display: block; width: 100%; padding: 20px; background: var(--gold-gradient); color: #000; text-align: center; text-decoration: none; font-weight: bold; border-radius: 2px; margin-bottom: 15px; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.btn-outline { display: block; width: 100%; padding: 20px; border: 1px solid var(--gold); color: var(--gold); text-align: center; text-decoration: none; border-radius: 2px; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 15px; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* TRINITY CONNECTIONS */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.trinity-link { background: var(--glass); border: 1px solid var(--border); padding: 15px; border-radius: 4px; display: flex; align-items: center; gap: 15px; margin-bottom: 15px; text-decoration: none; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.trinity-img { width: 50px; height: 50px; background: #222; border-radius: 2px; flex-shrink: 0; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.trinity-info h4 { margin: 0; color: var(--gold); font-size: 0.8rem; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.trinity-info p { margin: 3px 0 0; font-size: 0.65rem; color: #777; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>footer { text-align: center; padding: 60px 0; font-size: 0.6rem; color: #444; letter-spacing: 1px; border-top: 1px solid rgba(255,255,255,0.05); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;div class="container"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="header"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h1&gt;Raw Fire (Agni)&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;p style="font-size: 0.6rem; color: #555; margin-top: 10px; letter-spacing: 4px;"&gt;ISHWAR ARCHIVES • VOL 4&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;img src="your-artwork-fire-raw.jpg" alt="Raw Fire Piece" class="artwork-hero"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="status-box"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="status-row"&gt;&lt;span class="label"&gt;Asset ID&lt;/span&gt; &lt;span&gt;IA-VOL4-AGNI-001&lt;/span&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="status-row"&gt;&lt;span class="label"&gt;Status&lt;/span&gt; &lt;span style="color:#ff4444;"&gt;Sold&lt;/span&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="status-row"&gt;&lt;span class="label"&gt;Owner&lt;/span&gt; &lt;span&gt;Private Collector&lt;/span&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="status-row"&gt;&lt;span class="label"&gt;Location&lt;/span&gt; &lt;span&gt;The Banjaran Hotsprings Retreat, Tambun&lt;/span&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 class="section-title"&gt;Artistic Statement&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="statement-text"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>"This work is a topographical record of spiritual endurance. Utilizing the raw Limestone and Red Earth harvested from the Banjaran Steam Sauna Cave, I have lithified the geothermal heat of Tambun into a physical plane. This masterpiece archives the Intangible Cultural Heritage of the Dabus warrior trance—a visual capture of the moment where the human spirit transcends physical limitation."</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 class="section-title"&gt;The Trinity Category&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="trinity-link"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="trinity-img"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="trinity-info"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h4&gt;The Environment (Roads)&lt;/h4&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Artist: Herman Wsy. The physical Macro-landscape of Fire.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="trinity-link"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="trinity-img"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="trinity-info"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h4&gt;The Soul (Roots)&lt;/h4&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Artist: Mashitah N. The mythological spirit of Agni.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 class="section-title"&gt;The Kinetic Archive (Dance)&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="video-container"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="http://mappingculture.jkkn.gov.my/Home/KesenianDetails?aID=230" target="_blank" class="btn-outline" style="padding:10px; font-size:0.7rem;"&gt;Official JKKN Heritage Data&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 class="section-title"&gt;The Manifestation of Fire Realm&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="video-container"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="video-desc"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>Step into the mind of the artist to experience the visceral manifestation of Agni. This 4K cinematic bridge allows the collector to experience the creation heartbeat first-hand.</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h2 class="section-title"&gt;Mineral &amp; Gemstone Harvest&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="mineral-grid"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="mineral-card" onclick="window.open('https://www.mindat.org/min-3473.html', '_blank')"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;img src="mineral-ruby.jpg" alt="Ruby"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;span class="mineral-name"&gt;Ruby Fragments&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="mineral-card" onclick="window.open('https://www.mindat.org/min-2882.html', '_blank')"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;img src="mineral-meteorite.jpg" alt="Meteorite"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;span class="mineral-name"&gt;Shaved Meteorite&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="mineral-card" onclick="window.open('https://www.mindat.org/min-3337.html', '_blank')"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;img src="mineral-quartz.jpg" alt="Quartz"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;span class="mineral-name"&gt;Quartz Crystals&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="mineral-card"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;img src="mineral-limestone.jpg" alt="Limestone"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;span class="mineral-name"&gt;Banjaran Red Earth&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="mechanism-box"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h2&gt;Light Body Mechanism&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Yogic and Varma Science&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;p class="mechanism-text"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;strong&gt;Agni Tattva:&lt;/strong&gt; The integration of Meteorite and Ruby fragments activates the Solar Plexus. By mirroring the Kuthu Varmam strikes, the artwork cauterises the nervous system, transforming Tamasic inertia into Tejas (illumination).</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="att-circle"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;span class="att-number"&gt;80/100&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;span class="att-label"&gt;ATT POINTS&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="mailto:archives@ishwar.com?subject=Inquiry: IA-VOL4-AGNI-001" class="btn-gold"&gt;Request Private Acquisition Briefing&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="https://ishwararchives.com/assets/trinity-fire.pdf" class="btn-outline"&gt;Trinity of Narrative "Fire" .pdf&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a href="https://www.thebanjaran.com" target="_blank" class="btn-outline" style="border-color: #333; color: #666;"&gt;The Banjaran Hotsprings Retreat&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&amp;copy; 2026 ISHWAR ARCHIVES. ALL RIGHTS RESERVED.&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>KINTA VALLEY GEOPARK EXCAVATION DATA VERIFIED.</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
